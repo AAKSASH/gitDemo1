@@ -48,6 +48,7 @@ public class UPNorth extends driverselection {
 		Select dest = new Select(up.destination());
 		dest.selectByIndex(3);
 		log.info("Executed Test case of UPNorth class ");
+		System.out.println("hi");
 	}
 
 	@AfterClass
